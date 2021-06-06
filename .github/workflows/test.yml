@@ -13,7 +13,7 @@ jobs:
       - name: Test
         run: |
           cd project_manager/vunit
-          python3 run.py
+          python3 run.py lib.tb_minimal.all
           cd ..
           cd cocotb
           make
