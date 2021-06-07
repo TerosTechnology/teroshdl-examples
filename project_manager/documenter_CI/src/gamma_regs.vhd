@@ -42,6 +42,7 @@ entity gamma_regs is
         axi_aclk    : in  std_logic;
         axi_aresetn : in  std_logic;
         -- AXI Write Address Channel
+        --! @virtualbus axilite 
         s_axi_awaddr  : in  std_logic_vector(AXI_ADDR_WIDTH - 1 downto 0);
         s_axi_awprot  : in  std_logic_vector(2 downto 0); -- sigasi @suppress "Unused port"
         s_axi_awvalid : in  std_logic;
@@ -64,7 +65,7 @@ entity gamma_regs is
         -- AXI Write Response Channel
         s_axi_bresp   : out std_logic_vector(1 downto 0);
         s_axi_bvalid  : out std_logic;
-        s_axi_bready  : in  std_logic;
+        s_axi_bready  : in  std_logic; --! @end
         -- User Ports
         version_strobe : out std_logic; -- Strobe signal for register 'version' (pulsed when the register is read from the bus)
         version_value : in std_logic_vector(31 downto 0); -- Value of register 'version', field 'value'

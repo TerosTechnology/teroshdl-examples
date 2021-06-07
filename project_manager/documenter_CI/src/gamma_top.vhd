@@ -1,21 +1,17 @@
---! Copyright 2021
---! Ismael Pérez Rojo (ismaelprojo@gmail.com)
---!
+--! @author Ismael Pérez Rojo (ismaelprojo@gmail.com)
+--! @copyright 2021
 --! This file is part of gamma_c.
---!
 --! gamma_c is free software: you can redistribute it and/or modify
 --! it under the terms of the GNU General Public License as published by
 --! the Free Software Foundation, either version 3 of the License, or
 --! (at your option) any later version.
---!
 --! gamma_c is distributed in the hope that it will be useful,
 --! but WITHOUT ANY WARRANTY; without even the implied warranty of
 --! MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 --! GNU General Public License for more details.
---!
 --! You should have received a copy of the GNU General Public License
 --! along with gamma_c.  If not, see <https://www.gnu.org/licenses/>.
-
+--! 
 
 --! Módulo para la codificación de imágenes capturadas con scanner
 --! Compresión de datos
@@ -40,6 +36,7 @@ entity gamma_top is
     -- Axi_lite
     axi_aclk      : in std_logic;
     axi_aresetn   : in std_logic;
+    --! @virtualbus axilite
     -- AXI Write Address Channel
     s_axi_awaddr  : in std_logic_vector(AXI_ADDR_WIDTH - 1 downto 0);
     s_axi_awprot  : in std_logic_vector(2 downto 0);
@@ -63,7 +60,7 @@ entity gamma_top is
     -- AXI Write Response Channel
     s_axi_bresp   : out std_logic_vector(1 downto 0);
     s_axi_bvalid  : out std_logic;
-    s_axi_bready  : in std_logic
+    s_axi_bready  : in std_logic --! @end
   );
 end entity gamma_top;
 
