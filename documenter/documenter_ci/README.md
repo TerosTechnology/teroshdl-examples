@@ -10,7 +10,7 @@ docker pull terostech/colibri
 
 The generated documentation is published in github pages after the build.
 
-`https://terostechnology.github.io/teroshdl-examples/`
+[Example os generated documentation](https://terostechnology.github.io/teroshdl-examples)
 
 github CI example:
 

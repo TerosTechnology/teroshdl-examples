@@ -3,7 +3,7 @@ name: documenter_ci
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   teroshdl-doc:
