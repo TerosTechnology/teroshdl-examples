@@ -1,0 +1,558 @@
+
+  <style>
+    #teroshdl h1,#teroshdl h2,#teroshdl h3,#teroshdl table, #teroshdl svg {margin-left:2.5%;width:60%}
+    code {color:#545253;}
+    #teroshdl {color:black;}
+    div.templateTerosHDL { background-color: white;position:absolute; }
+    #teroshdl td,#teroshdl th,#teroshdl h1,#teroshdl h2,#teroshdl h3 {color: black;}
+    #teroshdl h1,#teroshdl h2 {font-weight:bold}
+    #teroshdl tr:hover {background-color: #ddd;}
+    #teroshdl td, #teroshdl th {
+      border: 1px solid grey;
+    }
+    #teroshdl p {color:black;}
+    #teroshdl p {margin-left:2.5%;}
+    #teroshdl p {
+      margin-top:5px;
+      margin-bottom:5px
+    }
+    #teroshdl th { background-color: #ffd78c;}
+    #teroshdl tr:nth-child(even){background-color: #f2f2f2;}
+  </style>
+  <div id="teroshdl" class='templateTerosHDL' style="overflow-y:auto;height:100%;width:100%">
+<p>&nbsp;&nbsp;</p><h1 id="entity-gamma_regs">Entity: gamma_regs</h1><h2 id="diagram">Diagram</h2><p><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" viewBox="0 0 1035 130"><svg id="SvgjsSvg1002" width="2" height="0" focusable="false" style="overflow:hidden;top:-100%;left:-100%;position:absolute;opacity:0"><polyline id="SvgjsPolyline1003" points="335,0 350,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg><rect id="SvgjsRect1006" width="350" height="30" fill="black" x="350" y="0"></rect><rect id="SvgjsRect1007" width="346" height="25" fill="#bdecb6" x="352" y="2"></rect><text id="SvgjsText1008" font-family="Helvetica" x="330" y="-5.698437500000001" font-size="20" text-anchor="end" family="Helvetica" size="20" anchor="end" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1009" dy="26" x="330" svgjs:data="{&quot;newLined&quot;:true}">   integer </tspan></text><text id="SvgjsText1010" font-family="Helvetica" x="365" y="-5.698437500000001" font-size="20" text-anchor="start" family="Helvetica" size="20" anchor="start" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1011" dy="26" x="365" svgjs:data="{&quot;newLined&quot;:true}">   AXI_ADDR_WIDTH </tspan></text><line id="SvgjsLine1012" x1="335" y1="15" x2="350" y2="15" stroke-linecap="rec" stroke="black" stroke-width="5"></line><rect id="SvgjsRect1013" width="350" height="90" fill="black" x="350" y="35"></rect><rect id="SvgjsRect1014" width="346" height="85" fill="#fdfd96" x="352" y="37"></rect><text id="SvgjsText1015" font-family="Helvetica" x="330" y="29.3015625" font-size="20" text-anchor="end" family="Helvetica" size="20" anchor="end" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1016" dy="26" x="330" svgjs:data="{&quot;newLined&quot;:true}">   std_logic </tspan></text><text id="SvgjsText1017" font-family="Helvetica" x="365" y="29.3015625" font-size="20" text-anchor="start" family="Helvetica" size="20" anchor="start" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1018" dy="26" x="365" svgjs:data="{&quot;newLined&quot;:true}">   axi_aclk </tspan></text><line id="SvgjsLine1019" x1="335" y1="50" x2="350" y2="50" stroke-linecap="rec" stroke="black" stroke-width="5"></line><text id="SvgjsText1020" font-family="Helvetica" x="330" y="49.3015625" font-size="20" text-anchor="end" family="Helvetica" size="20" anchor="end" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1021" dy="26" x="330" svgjs:data="{&quot;newLined&quot;:true}">   std_logic </tspan></text><text id="SvgjsText1022" font-family="Helvetica" x="365" y="49.3015625" font-size="20" text-anchor="start" family="Helvetica" size="20" anchor="start" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1023" dy="26" x="365" svgjs:data="{&quot;newLined&quot;:true}">   axi_aresetn </tspan></text><line id="SvgjsLine1024" x1="335" y1="70" x2="350" y2="70" stroke-linecap="rec" stroke="black" stroke-width="5"></line><text id="SvgjsText1025" font-family="Helvetica" x="330" y="69.3015625" font-size="20" text-anchor="end" family="Helvetica" size="20" anchor="end" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1026" dy="26" x="330" svgjs:data="{&quot;newLined&quot;:true}">   std_logic_vector(31 downto 0) </tspan></text><text id="SvgjsText1027" font-family="Helvetica" x="365" y="69.3015625" font-size="20" text-anchor="start" family="Helvetica" size="20" anchor="start" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1028" dy="26" x="365" svgjs:data="{&quot;newLined&quot;:true}">   version_value </tspan></text><line id="SvgjsLine1029" x1="335" y1="90" x2="350" y2="90" stroke-linecap="rec" stroke="black" stroke-width="5"></line><text id="SvgjsText1030" font-family="Helvetica" x="330" y="89.3015625" font-size="20" text-anchor="end" family="Helvetica" size="20" anchor="end" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1031" dy="26" x="330" svgjs:data="{&quot;newLined&quot;:true}">   virtual_bus </tspan></text><text id="SvgjsText1032" font-family="Helvetica" x="365" y="89.3015625" font-size="20" text-anchor="start" family="Helvetica" size="20" anchor="start" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1033" dy="26" x="365" svgjs:data="{&quot;newLined&quot;:true}">   axilite </tspan></text><line id="SvgjsLine1034" x1="335" y1="110" x2="350" y2="110" stroke-linecap="rec" stroke="black" stroke-width="5"></line><text id="SvgjsText1035" font-family="Helvetica" x="720" y="29.3015625" font-size="20" text-anchor="start" family="Helvetica" size="20" anchor="start" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1036" dy="26" x="720" svgjs:data="{&quot;newLined&quot;:true}">   std_logic </tspan></text><text id="SvgjsText1037" font-family="Helvetica" x="685" y="29.3015625" font-size="20" text-anchor="end" family="Helvetica" size="20" anchor="end" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1038" dy="26" x="685" svgjs:data="{&quot;newLined&quot;:true}">   version_strobe </tspan></text><line id="SvgjsLine1039" x1="700" y1="50" x2="715" y2="50" stroke-linecap="rec" stroke="black" stroke-width="5"></line><text id="SvgjsText1040" font-family="Helvetica" x="720" y="49.3015625" font-size="20" text-anchor="start" family="Helvetica" size="20" anchor="start" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1041" dy="26" x="720" svgjs:data="{&quot;newLined&quot;:true}">   std_logic </tspan></text><text id="SvgjsText1042" font-family="Helvetica" x="685" y="49.3015625" font-size="20" text-anchor="end" family="Helvetica" size="20" anchor="end" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1043" dy="26" x="685" svgjs:data="{&quot;newLined&quot;:true}">   gamma_strobe </tspan></text><line id="SvgjsLine1044" x1="700" y1="70" x2="715" y2="70" stroke-linecap="rec" stroke="black" stroke-width="5"></line><text id="SvgjsText1045" font-family="Helvetica" x="720" y="69.3015625" font-size="20" text-anchor="start" family="Helvetica" size="20" anchor="start" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1046" dy="26" x="720" svgjs:data="{&quot;newLined&quot;:true}">   std_logic_vector(15 downto 0) </tspan></text><text id="SvgjsText1047" font-family="Helvetica" x="685" y="69.3015625" font-size="20" text-anchor="end" family="Helvetica" size="20" anchor="end" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan id="SvgjsTspan1048" dy="26" x="685" svgjs:data="{&quot;newLined&quot;:true}">   gamma_value </tspan></text><line id="SvgjsLine1049" x1="700" y1="90" x2="715" y2="90" stroke-linecap="rec" stroke="black" stroke-width="5"></line></svg></p><h2 id="description">Description</h2><table><thead><tr><th id="offset" style="text-align:left;">OFFSET</th><th id="label">LABEL</th><th id="r/w" style="text-align:left;">R/W</th><th id="sc">SC</th><th id="description">DESCRIPTION</th><th id="reset_value">RESET VALUE</th></tr></thead><tbody><tr><td style="text-align:left;">0x0000</td><td><strong>IP_VERSION</strong></td><td style="text-align:left;"></td><td></td><td></td><td></td></tr><tr><td style="text-align:left;"></td><td><em>[31:0] Version</em></td><td style="text-align:left;">R</td><td>NO</td><td>version info.</td><td>VERSION</td></tr><tr><td style="text-align:left;">0x0004</td><td><strong>IP_CORE</strong></td><td style="text-align:left;"></td><td></td><td></td><td></td></tr><tr><td style="text-align:left;"></td><td><em>[31:0] ID</em></td><td style="text-align:left;">R</td><td>NO</td><td>Id Info.</td><td>ID</td></tr><tr><td style="text-align:left;">0x0008</td><td><strong>gamma</strong></td><td style="text-align:left;"></td><td></td><td></td><td>0x7fffffff</td></tr><tr><td style="text-align:left;"></td><td><em>[15:0] gamma</em></td><td style="text-align:left;">R/W</td><td>NO</td><td>gamma value</td><td></td></tr></tbody></table><h2 id="generics-and-ports">Generics and ports</h2>
+<h3 id="table-11-generics">Table 1.1 Generics</h3>
+<table>
+<thead>
+<tr>
+<th id="generic_name">Generic name</th>
+<th id="type">Type</th>
+<th id="value">Value</th>
+<th id="description">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AXI_ADDR_WIDTH</td>
+<td>integer</td>
+<td>32</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="table-12-ports">Table 1.2 Ports</h3>
+<table>
+<thead>
+<tr>
+<th id="port_name">Port name</th>
+<th id="direction">Direction</th>
+<th id="type">Type</th>
+<th id="description">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>axi_aclk</td>
+<td>in</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>axi_aresetn</td>
+<td>in</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>version_strobe</td>
+<td>out</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>version_value</td>
+<td>in</td>
+<td>std_logic_vector(31 downto 0)</td>
+<td></td>
+</tr>
+<tr>
+<td>gamma_strobe</td>
+<td>out</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>gamma_value</td>
+<td>out</td>
+<td>std_logic_vector(15 downto 0)</td>
+<td></td>
+</tr>
+<tr>
+<td>axilite</td>
+<td>-</td>
+<td>virtual_bus</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="13-virtual-buses">1.3 Virtual Buses</h3>
+<h3 id="table-131-axilite">Table 1.3.1 axilite</h3>
+<table>
+<thead>
+<tr>
+<th id="port_name">Port name</th>
+<th id="direction">Direction</th>
+<th id="type">Type</th>
+<th id="description">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>s_axi_awaddr</td>
+<td>in</td>
+<td>std_logic_vector(AXI_ADDR_WIDTH - 1 downto 0)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_awprot</td>
+<td>in</td>
+<td>std_logic_vector(2 downto 0)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_awvalid</td>
+<td>in</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_awready</td>
+<td>out</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_wdata</td>
+<td>in</td>
+<td>std_logic_vector(31 downto 0)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_wstrb</td>
+<td>in</td>
+<td>std_logic_vector(3 downto 0)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_wvalid</td>
+<td>in</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_wready</td>
+<td>out</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_araddr</td>
+<td>in</td>
+<td>std_logic_vector(AXI_ADDR_WIDTH - 1 downto 0)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_arprot</td>
+<td>in</td>
+<td>std_logic_vector(2 downto 0)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_arvalid</td>
+<td>in</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_arready</td>
+<td>out</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_rdata</td>
+<td>out</td>
+<td>std_logic_vector(31 downto 0)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_rresp</td>
+<td>out</td>
+<td>std_logic_vector(1 downto 0)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_rvalid</td>
+<td>out</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_rready</td>
+<td>in</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_bresp</td>
+<td>out</td>
+<td>std_logic_vector(1 downto 0)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_bvalid</td>
+<td>out</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_bready</td>
+<td>in</td>
+<td>std_logic</td>
+<td><a href="https://github.com/end">@end</a></td>
+</tr>
+</tbody>
+</table><h2 id="signals-constants-and-types">Signals, constants and types</h2>
+<h3 id="signals">Signals</h3>
+<table>
+<thead>
+<tr>
+<th id="name">Name</th>
+<th id="type">Type</th>
+<th id="description">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>s_axi_awready_r</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_wready_r</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_awaddr_reg_r</td>
+<td>unsigned(s_axi_awaddr'range)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_bvalid_r</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_bresp_r</td>
+<td>std_logic_vector(s_axi_bresp'range)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_arready_r</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_araddr_reg_r</td>
+<td>unsigned(s_axi_araddr'range)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_rvalid_r</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_rresp_r</td>
+<td>std_logic_vector(s_axi_rresp'range)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_wdata_reg_r</td>
+<td>std_logic_vector(s_axi_wdata'range)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_wstrb_reg_r</td>
+<td>std_logic_vector(s_axi_wstrb'range)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_axi_rdata_r</td>
+<td>std_logic_vector(s_axi_rdata'range)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_version_strobe_r</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>s_reg_version_value</td>
+<td>std_logic_vector(31 downto 0)</td>
+<td></td>
+</tr>
+<tr>
+<td>s_gamma_strobe_r</td>
+<td>std_logic</td>
+<td></td>
+</tr>
+<tr>
+<td>s_reg_gamma_value_r</td>
+<td>std_logic_vector(15 downto 0)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="constants">Constants</h3>
+<table>
+<thead>
+<tr>
+<th id="name">Name</th>
+<th id="type">Type</th>
+<th id="value">Value</th>
+<th id="description">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AXI_OKAY</td>
+<td>std_logic_vector(1 downto 0)</td>
+<td>"00"</td>
+<td></td>
+</tr>
+<tr>
+<td>AXI_DECERR</td>
+<td>std_logic_vector(1 downto 0)</td>
+<td>"11"</td>
+<td></td>
+</tr>
+<tr>
+<td>c_addr_bits</td>
+<td>natural</td>
+<td>16</td>
+<td></td>
+</tr>
+</tbody>
+</table><h2 id="processes">Processes</h2>
+<ul>
+<li><p><strong>read_fsm</strong>: <strong><em>( axi_aclk, axi_aresetn )</em></strong></p></li>
+<li><p><strong>write_fsm</strong>: <strong><em>( axi_aclk, axi_aresetn )</em></strong></p></li>
+</ul><h2 id="state-machines">State machines</h2><div><div id="state_machine"><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.40.1 (20161225.0304)
+ -->
+<!-- Title: state transitions Pages: 1 -->
+<svg width="1370pt" height="352pt"
+ viewBox="0.00 0.00 1370.00 352.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 348)">
+<title>state transitions</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-348 1366,-348 1366,4 -4,4"/>
+<g id="clust1" class="cluster state regular">
+<title>cluster_v_state_r</title>
+<path fill="none" stroke="#000000" stroke-width="2" d="M20,-8C20,-8 1342,-8 1342,-8 1348,-8 1354,-14 1354,-20 1354,-20 1354,-324 1354,-324 1354,-330 1348,-336 1342,-336 1342,-336 20,-336 20,-336 14,-336 8,-330 8,-324 8,-324 8,-20 8,-20 8,-14 14,-8 20,-8"/>
+<text text-anchor="start" x="656.8262" y="-317.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">v_state_r</text>
+</g>
+<!-- v_state_r -->
+<!-- IDLE -->
+<g id="node2" class="node state regular">
+<title>IDLE</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="1131,-298 1075,-298 1075,-262 1131,-262 1131,-298"/>
+<text text-anchor="start" x="1089.6644" y="-276.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">IDLE</text>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1087.3333,-263C1087.3333,-263 1118.6667,-263 1118.6667,-263 1124.3333,-263 1130,-268.6667 1130,-274.3333 1130,-274.3333 1130,-285.6667 1130,-285.6667 1130,-291.3333 1124.3333,-297 1118.6667,-297 1118.6667,-297 1087.3333,-297 1087.3333,-297 1081.6667,-297 1076,-291.3333 1076,-285.6667 1076,-285.6667 1076,-274.3333 1076,-274.3333 1076,-268.6667 1081.6667,-263 1087.3333,-263"/>
+</g>
+<!-- READ_REGISTER -->
+<g id="node3" class="node state regular">
+<title>READ_REGISTER</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="906.5,-216 783.5,-216 783.5,-180 906.5,-180 906.5,-216"/>
+<text text-anchor="start" x="794.8318" y="-194.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">READ_REGISTER</text>
+<path fill="none" stroke="#000000" stroke-width="2" d="M795.8333,-181C795.8333,-181 894.1667,-181 894.1667,-181 899.8333,-181 905.5,-186.6667 905.5,-192.3333 905.5,-192.3333 905.5,-203.6667 905.5,-203.6667 905.5,-209.3333 899.8333,-215 894.1667,-215 894.1667,-215 795.8333,-215 795.8333,-215 790.1667,-215 784.5,-209.3333 784.5,-203.6667 784.5,-203.6667 784.5,-192.3333 784.5,-192.3333 784.5,-186.6667 790.1667,-181 795.8333,-181"/>
+</g>
+<!-- IDLE&#45;&gt;READ_REGISTER -->
+<g id="edge1" class="edge transition">
+<title>IDLE&#45;&gt;READ_REGISTER</title>
+<path fill="none" stroke="#000000" d="M1074.8983,-271.0685C1035.985,-258.7007 964.5054,-235.9823 911.5413,-219.1488"/>
+<polygon fill="#000000" stroke="#000000" points="912.4697,-215.7714 901.8793,-216.0779 910.3493,-222.4425 912.4697,-215.7714"/>
+<text text-anchor="start" x="991" y="-236" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">s_axi_arvalid = &#39;1&#39; &#160;&#160;</text>
+</g>
+<!-- READ_RESPONSE -->
+<g id="node5" class="node state regular">
+<title>READ_RESPONSE</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="807,-134 679,-134 679,-98 807,-98 807,-134"/>
+<text text-anchor="start" x="689.6618" y="-112.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">READ_RESPONSE</text>
+<path fill="none" stroke="#000000" stroke-width="2" d="M691.3333,-99C691.3333,-99 794.6667,-99 794.6667,-99 800.3333,-99 806,-104.6667 806,-110.3333 806,-110.3333 806,-121.6667 806,-121.6667 806,-127.3333 800.3333,-133 794.6667,-133 794.6667,-133 691.3333,-133 691.3333,-133 685.6667,-133 680,-127.3333 680,-121.6667 680,-121.6667 680,-110.3333 680,-110.3333 680,-104.6667 685.6667,-99 691.3333,-99"/>
+</g>
+<!-- READ_REGISTER&#45;&gt;READ_RESPONSE -->
+<g id="edge2" class="edge transition">
+<title>READ_REGISTER&#45;&gt;READ_RESPONSE</title>
+<path fill="none" stroke="#000000" d="M783.4426,-196.134C647.8448,-191.7241 334.1142,-179.756 318.435,-163 314.791,-159.1057 314.822,-154.9231 318.435,-151 341.6277,-125.8166 553.3795,-118.7528 668.7923,-116.7718"/>
+<polygon fill="#000000" stroke="#000000" points="669.0294,-120.2685 678.971,-116.606 668.9153,-113.2695 669.0294,-120.2685"/>
+<text text-anchor="start" x="318" y="-154" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">s_axi_araddr_reg_r(c_addr_bits&#45;1 downto 0) = resize(VERSION_OFFSET, c_addr_bits) &#160;&#160;</text>
+</g>
+<!-- READ_REGISTER&#45;&gt;READ_RESPONSE -->
+<g id="edge3" class="edge transition">
+<title>READ_REGISTER&#45;&gt;READ_RESPONSE</title>
+<path fill="none" stroke="#000000" d="M783.1192,-179.7815C774.6333,-175.308 766.6148,-169.7892 760.105,-163 755.0982,-157.7783 751.5386,-150.9775 749.0145,-144.1784"/>
+<polygon fill="#000000" stroke="#000000" points="752.2932,-142.9325 746.0095,-134.4023 745.6022,-144.9893 752.2932,-142.9325"/>
+<text text-anchor="start" x="760" y="-154" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">s_axi_araddr_reg_r(c_addr_bits&#45;1 downto 0) = resize( &#160;GAMMA_OFFSET, c_addr_bits) &#160;&#160;</text>
+</g>
+<!-- READ_REGISTER&#45;&gt;READ_RESPONSE -->
+<g id="edge4" class="edge transition">
+<title>READ_REGISTER&#45;&gt;READ_RESPONSE</title>
+<path fill="none" stroke="#000000" d="M906.8446,-195.412C993.045,-191.1602 1140.6515,-181.285 1157,-163 1160.5548,-159.0241 1160.6089,-154.9269 1157,-151 1134.5472,-126.5689 930.4852,-119.1764 817.485,-116.9507"/>
+<polygon fill="#000000" stroke="#000000" points="817.2405,-113.4456 807.1765,-116.757 817.1089,-120.4444 817.2405,-113.4456"/>
+<text text-anchor="start" x="1159" y="-154" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">not () &#160;&#160;</text>
+</g>
+<!-- WAIT_MEMORY_RDATA -->
+<g id="node4" class="node state regular">
+<title>WAIT_MEMORY_RDATA</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="174.5,-216 15.5,-216 15.5,-180 174.5,-180 174.5,-216"/>
+<text text-anchor="start" x="26.5042" y="-194.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">WAIT_MEMORY_RDATA</text>
+<path fill="none" stroke="#000000" stroke-width="2" d="M27.8333,-181C27.8333,-181 162.1667,-181 162.1667,-181 167.8333,-181 173.5,-186.6667 173.5,-192.3333 173.5,-192.3333 173.5,-203.6667 173.5,-203.6667 173.5,-209.3333 167.8333,-215 162.1667,-215 162.1667,-215 27.8333,-215 27.8333,-215 22.1667,-215 16.5,-209.3333 16.5,-203.6667 16.5,-203.6667 16.5,-192.3333 16.5,-192.3333 16.5,-186.6667 22.1667,-181 27.8333,-181"/>
+</g>
+<!-- WAIT_MEMORY_RDATA&#45;&gt;READ_RESPONSE -->
+<g id="edge5" class="edge transition">
+<title>WAIT_MEMORY_RDATA&#45;&gt;READ_RESPONSE</title>
+<path fill="none" stroke="#000000" d="M87.6591,-179.7394C85.0513,-169.9871 84.2847,-158.4845 91.378,-151 110.9742,-130.323 502.1315,-120.5302 668.809,-117.2836"/>
+<polygon fill="#000000" stroke="#000000" points="669.0467,-120.7798 678.9776,-117.0882 668.9122,-113.7811 669.0467,-120.7798"/>
+<text text-anchor="start" x="91" y="-154" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">v_mem_wait_count_r = MEM_WAIT_COUNT&#45;1 &#160;&#160;</text>
+</g>
+<!-- DONE -->
+<g id="node6" class="node state regular">
+<title>DONE</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="1029,-52 973,-52 973,-16 1029,-16 1029,-52"/>
+<text text-anchor="start" x="983.6684" y="-30.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">DONE</text>
+<path fill="none" stroke="#000000" stroke-width="2" d="M985.3333,-17C985.3333,-17 1016.6667,-17 1016.6667,-17 1022.3333,-17 1028,-22.6667 1028,-28.3333 1028,-28.3333 1028,-39.6667 1028,-39.6667 1028,-45.3333 1022.3333,-51 1016.6667,-51 1016.6667,-51 985.3333,-51 985.3333,-51 979.6667,-51 974,-45.3333 974,-39.6667 974,-39.6667 974,-28.3333 974,-28.3333 974,-22.6667 979.6667,-17 985.3333,-17"/>
+</g>
+<!-- READ_RESPONSE&#45;&gt;DONE -->
+<g id="edge6" class="edge transition">
+<title>READ_RESPONSE&#45;&gt;DONE</title>
+<path fill="none" stroke="#000000" d="M799.9386,-97.9032C849.5332,-82.1406 920.0505,-59.7281 963.0447,-46.0633"/>
+<polygon fill="#000000" stroke="#000000" points="964.3594,-49.3181 972.8295,-42.9534 962.2391,-42.6469 964.3594,-49.3181"/>
+<text text-anchor="middle" x="890.3895" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> </text>
+</g>
+<!-- DONE&#45;&gt;IDLE -->
+<g id="edge7" class="edge transition">
+<title>DONE&#45;&gt;IDLE</title>
+<path fill="none" stroke="#000000" d="M1029.1017,-35.5545C1095.9696,-39.6282 1259,-51.9263 1259,-75 1259,-239 1259,-239 1259,-239 1259,-261.5859 1181.7852,-256.0393 1160,-262 1153.8253,-263.6895 1147.3167,-265.6099 1140.9937,-267.5519"/>
+<polygon fill="#000000" stroke="#000000" points="1139.7825,-264.2635 1131.2848,-270.5912 1141.8738,-270.9438 1139.7825,-264.2635"/>
+<text text-anchor="start" x="1259" y="-154" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">s_axi_rready = &#39;1&#39; &#160;&#160;</text>
+</g>
+</g>
+</svg>
+</div><div id="state_machine"><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.40.1 (20161225.0304)
+ -->
+<!-- Title: state transitions Pages: 1 -->
+<svg width="522pt" height="352pt"
+ viewBox="0.00 0.00 522.17 352.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 348)">
+<title>state transitions</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-348 518.172,-348 518.172,4 -4,4"/>
+<g id="clust1" class="cluster state regular">
+<title>cluster_v_state_r</title>
+<path fill="none" stroke="#000000" stroke-width="2" d="M20,-8C20,-8 487,-8 487,-8 493,-8 499,-14 499,-20 499,-20 499,-324 499,-324 499,-330 493,-336 487,-336 487,-336 20,-336 20,-336 14,-336 8,-330 8,-324 8,-324 8,-20 8,-20 8,-14 14,-8 20,-8"/>
+<text text-anchor="start" x="229.3262" y="-317.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">v_state_r</text>
+</g>
+<!-- v_state_r -->
+<!-- IDLE -->
+<g id="node2" class="node state regular">
+<title>IDLE</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="341,-298 285,-298 285,-262 341,-262 341,-298"/>
+<text text-anchor="start" x="299.6644" y="-276.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">IDLE</text>
+<path fill="none" stroke="#000000" stroke-width="2" d="M297.3333,-263C297.3333,-263 328.6667,-263 328.6667,-263 334.3333,-263 340,-268.6667 340,-274.3333 340,-274.3333 340,-285.6667 340,-285.6667 340,-291.3333 334.3333,-297 328.6667,-297 328.6667,-297 297.3333,-297 297.3333,-297 291.6667,-297 286,-291.3333 286,-285.6667 286,-285.6667 286,-274.3333 286,-274.3333 286,-268.6667 291.6667,-263 297.3333,-263"/>
+</g>
+<!-- ADDR_FIRST -->
+<g id="node3" class="node state regular">
+<title>ADDR_FIRST</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="349.5,-216 252.5,-216 252.5,-180 349.5,-180 349.5,-216"/>
+<text text-anchor="start" x="263.838" y="-194.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">ADDR_FIRST</text>
+<path fill="none" stroke="#000000" stroke-width="2" d="M264.8333,-181C264.8333,-181 337.1667,-181 337.1667,-181 342.8333,-181 348.5,-186.6667 348.5,-192.3333 348.5,-192.3333 348.5,-203.6667 348.5,-203.6667 348.5,-209.3333 342.8333,-215 337.1667,-215 337.1667,-215 264.8333,-215 264.8333,-215 259.1667,-215 253.5,-209.3333 253.5,-203.6667 253.5,-203.6667 253.5,-192.3333 253.5,-192.3333 253.5,-186.6667 259.1667,-181 264.8333,-181"/>
+</g>
+<!-- IDLE&#45;&gt;ADDR_FIRST -->
+<g id="edge2" class="edge transition">
+<title>IDLE&#45;&gt;ADDR_FIRST</title>
+<path fill="none" stroke="#000000" d="M284.8718,-267.4278C275.9219,-261.9135 267.0558,-254.4957 262.059,-245 258.1576,-237.586 260.3802,-230.2685 265.3163,-223.6951"/>
+<polygon fill="#000000" stroke="#000000" points="267.8957,-226.061 272.153,-216.3591 262.7748,-221.2886 267.8957,-226.061"/>
+<text text-anchor="start" x="262" y="-236" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">s_axi_awvalid = &#39;1&#39; &#160;&#160;</text>
+</g>
+<!-- DATA_FIRST -->
+<g id="node4" class="node state regular">
+<title>DATA_FIRST</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="466.5,-216 371.5,-216 371.5,-180 466.5,-180 466.5,-216"/>
+<text text-anchor="start" x="382.834" y="-194.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">DATA_FIRST</text>
+<path fill="none" stroke="#000000" stroke-width="2" d="M383.8333,-181C383.8333,-181 454.1667,-181 454.1667,-181 459.8333,-181 465.5,-186.6667 465.5,-192.3333 465.5,-192.3333 465.5,-203.6667 465.5,-203.6667 465.5,-209.3333 459.8333,-215 454.1667,-215 454.1667,-215 383.8333,-215 383.8333,-215 378.1667,-215 372.5,-209.3333 372.5,-203.6667 372.5,-203.6667 372.5,-192.3333 372.5,-192.3333 372.5,-186.6667 378.1667,-181 383.8333,-181"/>
+</g>
+<!-- IDLE&#45;&gt;DATA_FIRST -->
+<g id="edge3" class="edge transition">
+<title>IDLE&#45;&gt;DATA_FIRST</title>
+<path fill="none" stroke="#000000" d="M336.5248,-261.8015C351.4834,-250.2298 371.035,-235.105 387.3474,-222.486"/>
+<polygon fill="#000000" stroke="#000000" points="389.7729,-225.0347 395.5409,-216.1476 385.4898,-219.498 389.7729,-225.0347"/>
+<text text-anchor="start" x="373" y="-236" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">s_axi_wvalid = &#39;1&#39; &#160;&#160;</text>
+</g>
+<!-- UPDATE_REGISTER -->
+<g id="node5" class="node state regular">
+<title>UPDATE_REGISTER</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="270,-134 132,-134 132,-98 270,-98 270,-134"/>
+<text text-anchor="start" x="142.665" y="-112.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">UPDATE_REGISTER</text>
+<path fill="none" stroke="#000000" stroke-width="2" d="M144.3333,-99C144.3333,-99 257.6667,-99 257.6667,-99 263.3333,-99 269,-104.6667 269,-110.3333 269,-110.3333 269,-121.6667 269,-121.6667 269,-127.3333 263.3333,-133 257.6667,-133 257.6667,-133 144.3333,-133 144.3333,-133 138.6667,-133 133,-127.3333 133,-121.6667 133,-121.6667 133,-110.3333 133,-110.3333 133,-104.6667 138.6667,-99 144.3333,-99"/>
+</g>
+<!-- IDLE&#45;&gt;UPDATE_REGISTER -->
+<g id="edge1" class="edge transition">
+<title>IDLE&#45;&gt;UPDATE_REGISTER</title>
+<path fill="none" stroke="#000000" d="M284.8625,-278.7252C214.7743,-275.1759 38,-263.7689 38,-239 38,-239 38,-239 38,-157 38,-137.9549 80.3802,-127.672 121.921,-122.1674"/>
+<polygon fill="#000000" stroke="#000000" points="122.3799,-125.6374 131.8733,-120.9336 121.5187,-118.6906 122.3799,-125.6374"/>
+<text text-anchor="start" x="38" y="-195" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">s_axi_awvalid = &#39;1&#39; and s_axi_wvalid = &#39;1&#39; &#160;&#160;</text>
+</g>
+<!-- ADDR_FIRST&#45;&gt;UPDATE_REGISTER -->
+<g id="edge4" class="edge transition">
+<title>ADDR_FIRST&#45;&gt;UPDATE_REGISTER</title>
+<path fill="none" stroke="#000000" d="M252.43,-184.3825C246.571,-182.8497 240.6599,-181.3544 235,-180 198.6408,-171.2995 176.2317,-191.9841 152.618,-163 146.3493,-155.3057 149.5338,-147.5548 156.5993,-140.628"/>
+<polygon fill="#000000" stroke="#000000" points="159.1949,-143.029 164.7522,-134.0086 154.7827,-137.5946 159.1949,-143.029"/>
+<text text-anchor="start" x="152" y="-154" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">s_axi_wvalid = &#39;1&#39; &#160;&#160;</text>
+</g>
+<!-- DATA_FIRST&#45;&gt;UPDATE_REGISTER -->
+<g id="edge5" class="edge transition">
+<title>DATA_FIRST&#45;&gt;UPDATE_REGISTER</title>
+<path fill="none" stroke="#000000" d="M371.3013,-182.8398C367.8249,-181.8447 364.3643,-180.8872 361,-180 326.7171,-170.9594 316.1471,-175.7367 283.059,-163 267.0969,-156.8557 250.5366,-147.9286 236.5085,-139.5012"/>
+<polygon fill="#000000" stroke="#000000" points="238.0378,-136.3326 227.6874,-134.0696 234.3675,-142.2932 238.0378,-136.3326"/>
+<text text-anchor="start" x="283" y="-154" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">s_axi_awvalid = &#39;1&#39; &#160;&#160;</text>
+</g>
+<!-- DONE -->
+<g id="node6" class="node state regular">
+<title>DONE</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="330,-52 274,-52 274,-16 330,-16 330,-52"/>
+<text text-anchor="start" x="284.6684" y="-30.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">DONE</text>
+<path fill="none" stroke="#000000" stroke-width="2" d="M286.3333,-17C286.3333,-17 317.6667,-17 317.6667,-17 323.3333,-17 329,-22.6667 329,-28.3333 329,-28.3333 329,-39.6667 329,-39.6667 329,-45.3333 323.3333,-51 317.6667,-51 317.6667,-51 286.3333,-51 286.3333,-51 280.6667,-51 275,-45.3333 275,-39.6667 275,-39.6667 275,-28.3333 275,-28.3333 275,-22.6667 280.6667,-17 286.3333,-17"/>
+</g>
+<!-- UPDATE_REGISTER&#45;&gt;DONE -->
+<g id="edge6" class="edge transition">
+<title>UPDATE_REGISTER&#45;&gt;DONE</title>
+<path fill="none" stroke="#000000" d="M223.4152,-97.8015C237.6681,-86.2298 256.2975,-71.105 271.8404,-58.486"/>
+<polygon fill="#000000" stroke="#000000" points="274.09,-61.1679 279.6475,-52.1476 269.6779,-55.7334 274.09,-61.1679"/>
+<text text-anchor="middle" x="259.3895" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> </text>
+</g>
+<!-- DONE&#45;&gt;IDLE -->
+<g id="edge7" class="edge transition">
+<title>DONE&#45;&gt;IDLE</title>
+<path fill="none" stroke="#000000" d="M330.1217,-39.8021C359.6992,-46.7344 402,-59.3793 402,-75 402,-142.5 402,-142.5 402,-142.5 402,-180.1658 458.1134,-148.0119 478,-180 493.6024,-205.0968 487.2958,-226.8179 464,-245 434.6593,-267.9 418.241,-253.522 382,-262 371.8741,-264.3688 360.9644,-267.121 350.8754,-269.7501"/>
+<polygon fill="#000000" stroke="#000000" points="349.8984,-266.388 341.1195,-272.3193 351.6811,-273.1572 349.8984,-266.388"/>
+<text text-anchor="start" x="425" y="-154" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">s_axi_bready = &#39;1&#39; &#160;&#160;</text>
+</g>
+</g>
+</svg>
+</div></div><br><br><br><br><br><br>
