@@ -1,6 +1,7 @@
 __pycache__
 sim_build
-rsults.xml
+results.xml
 teroshdl_export.json
 teroshdl_out.xml
 vunit_out
+*.vcd
