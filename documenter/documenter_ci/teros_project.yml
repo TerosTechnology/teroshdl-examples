@@ -1,0 +1,21 @@
+toplevel: ""
+name: teros_project
+files: 
+  - name: "src/gamma_top.vhd"
+    file_type: ""
+    is_include_file: false
+  - name: "src/gamma_tables.vhd"
+    file_type: ""
+    is_include_file: false
+  - name: "src/gamma_regs_pkg.vhd"
+    file_type: ""
+    is_include_file: false
+  - name: "src/gamma_regs.vhd"
+    file_type: ""
+    is_include_file: false
+  - name: "src/gamma.vhd"
+    file_type: ""
+    is_include_file: false
+tool_options: 
+  cocotb: 
+    installation_path: ""
