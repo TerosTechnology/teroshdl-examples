@@ -18,7 +18,7 @@ jobs:
     - name: 'doc_gen'
       run: |
         cd documenter/documenter_ci
-        teroshdl-hdl-documenter -f teros_project.yml -o html --dep --fsm -s all -c all -p all --sym-vhdl ! --outpath built_doc 
+        teroshdl-hdl-documenter -i teros_project.yml -o html --dep --fsm -s all -c all -p all --sym-vhdl ! --outpath built_doc 
         apt install -y rsync
 
     - name: Deploy 🚀
