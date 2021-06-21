@@ -1,0 +1,292 @@
+
+<style>
+  h1, h2, h3, table, svg {
+    margin-left:2.5%;
+    width:60%
+  }
+  h1, h2 {
+    font-weight:bold
+  }
+  code {
+    color:#545253;
+  }
+  p {
+    color:black;
+    margin-top:5px;
+    margin-left:2.5%;
+    margin-bottom:5px 
+  }
+  * {
+    color:black;
+  }
+  #function_return{
+    font-weight: bold;
+    color:green;
+  }
+  #function_arguments{
+    color:blue;
+  }
+  div.templateTerosHDL {
+    background-color: white;
+    position:absolute;
+  }
+  td, th {
+    border: 1px solid grey;
+  }
+  th {
+    background-color: #ffd78c;
+  }
+  tr:hover {
+    background-color: #ddd;
+  }
+  tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+</style>
+<div id="teroshdl" class='templateTerosHDL' style="overflow-y:auto;height:100%;width:100%">
+<a id=gamma_regs_pkg><h1 id="package-gamma_regs_pkg">Package: gamma_regs_pkg</h1></a><h2 id="description">Description</h2><h2 id="signals-constants-and-types">Signals, constants and types</h2>
+<h3 id="constants">Constants</h3>
+<table>
+<thead>
+<tr>
+<th id="name">Name</th>
+<th id="type">Type</th>
+<th id="value">Value</th>
+<th id="description">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GAMMA_REVISION</td>
+<td>natural</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>GAMMA_DEFAULT_BASEADDR</td>
+<td>unsigned(31 downto 0)</td>
+<td>unsigned'(x"00000000")</td>
+<td></td>
+</tr>
+<tr>
+<td>VERSION_OFFSET</td>
+<td>unsigned(31 downto 0)</td>
+<td>unsigned'(x"00000000")</td>
+<td></td>
+</tr>
+<tr>
+<td>VERSION_VALUE_BIT_OFFSET</td>
+<td>natural</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td>VERSION_VALUE_BIT_WIDTH</td>
+<td>natural</td>
+<td>32</td>
+<td></td>
+</tr>
+<tr>
+<td>VERSION_VALUE_RESET</td>
+<td>std_logic_vector(31 downto 0)</td>
+<td>std_logic_vector'("00000000000000000000000000000000")</td>
+<td></td>
+</tr>
+<tr>
+<td>GAMMA_OFFSET</td>
+<td>unsigned(31 downto 0)</td>
+<td>unsigned'(x"00000004")</td>
+<td></td>
+</tr>
+<tr>
+<td>GAMMA_VALUE_BIT_OFFSET</td>
+<td>natural</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td>GAMMA_VALUE_BIT_WIDTH</td>
+<td>natural</td>
+<td>16</td>
+<td></td>
+</tr>
+<tr>
+<td>GAMMA_VALUE_RESET</td>
+<td>std_logic_vector(15 downto 0)</td>
+<td>std_logic_vector'("0000000000000000")</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="types">Types</h3>
+<table>
+<thead>
+<tr>
+<th id="name">Name</th>
+<th id="type">Type</th>
+<th id="description">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>slv1_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv2_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv3_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv4_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv5_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv6_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv7_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv8_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv9_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv10_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv11_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv12_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv13_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv14_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv15_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv16_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv17_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv18_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv19_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv20_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv21_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv22_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv23_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv24_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv25_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv26_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv27_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv28_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv29_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv30_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv31_array_t</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>slv32_array_t</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table><br><br><br><br><br><br>
