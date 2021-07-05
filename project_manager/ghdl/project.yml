@@ -1,4 +1,4 @@
-toplevel: ""
+toplevel: "half_adder_process_tb"
 name: project_ghdl
 files: 
   - name: "half_adder_tb.vhd"
@@ -11,5 +11,5 @@ tool_options:
   ghdl: 
     installation_path: ""
     waveform: ""
-    analyze_options: "-fexplicit\x2C--no-vital-checks\x2C-frelaxed-rules"
+    analyze_options: ""
     run_options: ""
