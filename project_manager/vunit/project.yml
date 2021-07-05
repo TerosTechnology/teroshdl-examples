@@ -1,0 +1,15 @@
+toplevel: "run.py"
+name: project_vunit
+files: 
+  - name: "run.py"
+    file_type: python
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+tool_options: 
+  vunit: 
+    installation_path: ""
+    simulator: ghdl
+    options: "--verbose"
+    add_libraries: ""
+    runner: ""
