@@ -7,6 +7,16 @@ entity half_adder_lookup_tb is
 end half_adder_lookup_tb;
 
 architecture tb of half_adder_lookup_tb is
+
+    component half_adder
+        port (
+        a : in std_logic;
+        b : in std_logic;
+        sum : out std_logic;
+        carry : out std_logic
+    );
+    end component;
+
     
     signal a, b : std_logic; -- input
     signal sum, carry : std_logic; -- output
@@ -28,7 +38,7 @@ architecture tb of half_adder_lookup_tb is
         );
 
 begin
-    UUT : entity work.half_adder port map (a => a, b => b, sum => sum, carry => carry);
+    UUT : half_adder port map (a => a, b => b, sum => sum, carry => carry);
 
     tb1 : process
     begin
