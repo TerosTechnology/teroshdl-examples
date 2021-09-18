@@ -57,7 +57,7 @@ begin
             report  "test_vector " & integer'image(i) & " failed " & 
                     " for input a = " & std_logic'image(a) & 
                     " and b = " & std_logic'image(b)
-                    severity error;
+                    severity failure;
         end loop;
         wait;
     end process; 
