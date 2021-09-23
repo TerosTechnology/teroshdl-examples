@@ -1,0 +1,78 @@
+toplevel: half_adder_process_tb
+name: documenter_examples
+files: 
+  - name: "wavedrom_1.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "wavedrom_0.v"
+    file_type: "verilogSource-2005"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "virtualbus_example.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "state_machine_6.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "state_machine_5.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "state_machine_4.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "state_machine_3.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "state_machine_2.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "state_machine_1.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "state_machine_0.v"
+    file_type: "verilogSource-2005"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "markdown_example.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "html_labels_example.v"
+    file_type: "verilogSource-2005"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "doxygen_example.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+tool_options: 
+  ghdl: 
+    installation_path: ""
+    waveform: vcd
+    analyze_options: 
+      - "--ieee=synopsys"
+    run_options: 
+      - ""
+    linter_options: 
+      - ""
