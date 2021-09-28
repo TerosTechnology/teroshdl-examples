@@ -1,32 +1,32 @@
-toplevel: half_adder_process_tb
+toplevel: example_wavedrom
 name: documenter_examples
 files: 
-  - name: "../../../../.vscode/extensions/teros-technology.teroshdl-2.0.0-beta/resources/project_manager/examples/documenter/wavedrom_1.vhd"
+  - name: "wavedrom_1.vhd"
     file_type: "vhdlSource-2008"
     is_include_file: false
     include_path: ""
     logical_name: ""
-  - name: "../../../../.vscode/extensions/teros-technology.teroshdl-2.0.0-beta/resources/project_manager/examples/documenter/wavedrom_0.v"
+  - name: "wavedrom_0.v"
     file_type: "verilogSource-2005"
     is_include_file: false
     include_path: ""
     logical_name: ""
-  - name: "../../../../.vscode/extensions/teros-technology.teroshdl-2.0.0-beta/resources/project_manager/examples/documenter/virtualbus_example.vhd"
+  - name: "virtualbus_example.vhd"
     file_type: "vhdlSource-2008"
     is_include_file: false
     include_path: ""
     logical_name: ""
-  - name: "../../../../.vscode/extensions/teros-technology.teroshdl-2.0.0-beta/resources/project_manager/examples/documenter/markdown_example.vhd"
+  - name: "markdown_example.vhd"
     file_type: "vhdlSource-2008"
     is_include_file: false
     include_path: ""
     logical_name: ""
-  - name: "../../../../.vscode/extensions/teros-technology.teroshdl-2.0.0-beta/resources/project_manager/examples/documenter/html_labels_example.v"
+  - name: "html_labels_example.v"
     file_type: "verilogSource-2005"
     is_include_file: false
     include_path: ""
     logical_name: ""
-  - name: "../../../../.vscode/extensions/teros-technology.teroshdl-2.0.0-beta/resources/project_manager/examples/documenter/doxygen_example.vhd"
+  - name: "doxygen_example.vhd"
     file_type: "vhdlSource-2008"
     is_include_file: false
     include_path: ""
