@@ -1,67 +1,32 @@
 toplevel: half_adder_process_tb
 name: documenter_examples
 files: 
-  - name: "wavedrom_1.vhd"
+  - name: "../../../../.vscode/extensions/teros-technology.teroshdl-2.0.0-beta/resources/project_manager/examples/documenter/wavedrom_1.vhd"
     file_type: "vhdlSource-2008"
     is_include_file: false
     include_path: ""
     logical_name: ""
-  - name: "wavedrom_0.v"
+  - name: "../../../../.vscode/extensions/teros-technology.teroshdl-2.0.0-beta/resources/project_manager/examples/documenter/wavedrom_0.v"
     file_type: "verilogSource-2005"
     is_include_file: false
     include_path: ""
     logical_name: ""
-  - name: "virtualbus_example.vhd"
+  - name: "../../../../.vscode/extensions/teros-technology.teroshdl-2.0.0-beta/resources/project_manager/examples/documenter/virtualbus_example.vhd"
     file_type: "vhdlSource-2008"
     is_include_file: false
     include_path: ""
     logical_name: ""
-  - name: "state_machine_6.vhd"
+  - name: "../../../../.vscode/extensions/teros-technology.teroshdl-2.0.0-beta/resources/project_manager/examples/documenter/markdown_example.vhd"
     file_type: "vhdlSource-2008"
     is_include_file: false
     include_path: ""
     logical_name: ""
-  - name: "state_machine_5.vhd"
-    file_type: "vhdlSource-2008"
-    is_include_file: false
-    include_path: ""
-    logical_name: ""
-  - name: "state_machine_4.vhd"
-    file_type: "vhdlSource-2008"
-    is_include_file: false
-    include_path: ""
-    logical_name: ""
-  - name: "state_machine_3.vhd"
-    file_type: "vhdlSource-2008"
-    is_include_file: false
-    include_path: ""
-    logical_name: ""
-  - name: "state_machine_2.vhd"
-    file_type: "vhdlSource-2008"
-    is_include_file: false
-    include_path: ""
-    logical_name: ""
-  - name: "state_machine_1.vhd"
-    file_type: "vhdlSource-2008"
-    is_include_file: false
-    include_path: ""
-    logical_name: ""
-  - name: "state_machine_0.v"
+  - name: "../../../../.vscode/extensions/teros-technology.teroshdl-2.0.0-beta/resources/project_manager/examples/documenter/html_labels_example.v"
     file_type: "verilogSource-2005"
     is_include_file: false
     include_path: ""
     logical_name: ""
-  - name: "markdown_example.vhd"
-    file_type: "vhdlSource-2008"
-    is_include_file: false
-    include_path: ""
-    logical_name: ""
-  - name: "html_labels_example.v"
-    file_type: "verilogSource-2005"
-    is_include_file: false
-    include_path: ""
-    logical_name: ""
-  - name: "doxygen_example.vhd"
+  - name: "../../../../.vscode/extensions/teros-technology.teroshdl-2.0.0-beta/resources/project_manager/examples/documenter/doxygen_example.vhd"
     file_type: "vhdlSource-2008"
     is_include_file: false
     include_path: ""
