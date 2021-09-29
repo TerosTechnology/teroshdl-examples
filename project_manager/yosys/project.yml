@@ -1,0 +1,18 @@
+toplevel: blinky
+name: project_yosys
+files: 
+  - name: "blinky.v"
+    file_type: "verilogSource-2005"
+    is_include_file: false
+    include_path: false
+    logical_name: ""
+tool_options: 
+  yosys: 
+    installation_path: ""
+    arch: xilinx
+    output_format: json
+    yosys_as_subtool: false
+    makefile_name: ""
+    script_name: ""
+    yosys_synth_options: 
+      - ""
