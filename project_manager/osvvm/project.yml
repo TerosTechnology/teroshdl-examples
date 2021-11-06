@@ -1,0 +1,15 @@
+toplevel_path: "full_adder_project.pro"
+name: project_osvvm
+files: 
+  - name: "full_adder.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+  - name: "full_adder_tb.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+  - name: "full_adder_project.pro"
+    file_type: "tcl"
+    is_include_file: false
+tool_options: 
+  osvvm: 
+    libraries_path: ""
