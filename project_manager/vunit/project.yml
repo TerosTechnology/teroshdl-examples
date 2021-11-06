@@ -1,4 +1,4 @@
-toplevel: "run.py"
+toplevel_path: "run.py"
 name: project_vunit
 files: 
   - name: "run.py"
