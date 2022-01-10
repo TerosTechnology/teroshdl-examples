@@ -1,0 +1,16 @@
+toplevel: "heartbeat"
+name: project_siliconcompiler
+files: 
+  - name: "heartbeat.v"
+    file_type: "verilog"
+    is_include_file: false
+  - name: "heartbeat.sdc"
+    file_type: "SDC"
+    is_include_file: false
+tool_options: 
+  siliconcompiler: 
+    installation_path: ""
+    server_enable: false
+    server_address: ""
+    server_username: ""
+    server_password: ""
