@@ -47,11 +47,9 @@ entity virtualbus_example is
     s_axi_rdata   : out std_logic_vector(AXI_LITE_DATA_WIDTH - 1 downto 0);
     s_axi_rresp   : out std_logic_vector(1 downto 0);
     s_axi_rvalid  : out std_logic;
-    s_axi_rready  : in std_logic;
-    --! @end
+    s_axi_rready  : in std_logic; --! @end
 
     --! @virtualbus video_in_axi_stream @dir in a slave axi stream interface for video in
-    --!
     --! axis data bus, transfers two pixels per clock with pixel width of 12 bits in mono color
     video_in_tdata  : in  std_logic_vector(23 downto 0);
     --! axis last, used to indicate the end of packet which in video context refer to line
@@ -64,9 +62,7 @@ entity virtualbus_example is
     video_in_tready : out std_logic;
 
     --! @virtualbus video_out_axi_stream @dir out @keepports a master axi stream interface for video out
-    --!
-    --! axis data bus, transfers two pixels per clock with pixel width of 10 bits in mono color
-    video_out_tdata  : out std_logic_vector(23 downto 0);
+    video_out_tdata  : out std_logic_vector(23 downto 0); --! axis data bus, transfers two pixels per clock with pixel width of 10 bits in mono color
     --! axis last, used to indicate the end of packet which in video context refer to line
     video_out_tlast  : out std_logic;
     --! axis user, usually is user defined but in video context it marks the start of a frame
@@ -74,8 +70,7 @@ entity virtualbus_example is
     --! axis valid handshake signal
     video_out_tvalid : out std_logic;
     --! axis ready handshake signal
-    video_out_tready : in  std_logic;
-    --! @end
+    video_out_tready : in  std_logic; --! @end
 
     --! data out signal, read data from memory
     mem_dout : in  std_logic_vector(LUT_WORD_SIZE-1 downto 0);
