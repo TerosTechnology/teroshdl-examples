@@ -1,36 +1,57 @@
 toplevel: example_wavedrom
 name: documenter_examples
 files: 
-  - name: "wavedrom_1.vhd"
+  ##############################################################################
+  # Basic
+  ##############################################################################
+  - name: "basic.vhd"
     file_type: "vhdlSource-2008"
     is_include_file: false
     include_path: ""
     logical_name: ""
-  - name: "wavedrom_0.v"
+
+  - name: "basic_pkg.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+
+  - name: "basic.v"
     file_type: "verilogSource-2005"
     is_include_file: false
     include_path: ""
     logical_name: ""
-  - name: "virtualbus_example.vhd"
+
+  ##############################################################################
+  # Wavedrom
+  ##############################################################################
+  - name: "wavedrom.vhd"
     file_type: "vhdlSource-2008"
     is_include_file: false
     include_path: ""
     logical_name: ""
-  - name: "markdown_example.vhd"
-    file_type: "vhdlSource-2008"
-    is_include_file: false
-    include_path: ""
-    logical_name: ""
-  - name: "html_labels_example.v"
+
+  - name: "wavedrom.v"
     file_type: "verilogSource-2005"
     is_include_file: false
     include_path: ""
     logical_name: ""
-  - name: "doxygen_example.vhd"
+
+  ##############################################################################
+  # VirtualBus
+  ##############################################################################
+  - name: "virtualbus.vhd"
     file_type: "vhdlSource-2008"
     is_include_file: false
     include_path: ""
     logical_name: ""
+
+  - name: "virtualbus.v"
+    file_type: "verilogSource-2005"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+
 tool_options: 
   ghdl: 
     installation_path: ""

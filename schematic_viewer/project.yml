@@ -1,0 +1,26 @@
+toplevel: evaluate_example
+name: schematic_viewer
+files: 
+  #############################################3
+  # Evaluate
+  #############################################3
+  - name: "full_adder.v"
+    file_type: "verilogSource-2005"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "d_flip_flop.v"
+    file_type: "verilogSource-2005"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+tool_options: 
+  ghdl: 
+    installation_path: ""
+    waveform: vcd
+    analyze_options: 
+      - "--ieee=synopsys"
+    run_options: 
+      - ""
+    linter_options: 
+      - ""

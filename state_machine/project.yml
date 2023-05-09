@@ -1,41 +1,66 @@
 toplevel: control_logic
 name: state_machine_examples
 files: 
-  - name: "state_machine_6.vhd"
-    file_type: "vhdlSource-2008"
-    is_include_file: false
-    include_path: ""
-    logical_name: ""
-  - name: "state_machine_5.vhd"
-    file_type: "vhdlSource-2008"
-    is_include_file: false
-    include_path: ""
-    logical_name: ""
-  - name: "state_machine_4.vhd"
-    file_type: "vhdlSource-2008"
-    is_include_file: false
-    include_path: ""
-    logical_name: ""
-  - name: "state_machine_3.vhd"
-    file_type: "vhdlSource-2008"
-    is_include_file: false
-    include_path: ""
-    logical_name: ""
-  - name: "state_machine_2.vhd"
-    file_type: "vhdlSource-2008"
-    is_include_file: false
-    include_path: ""
-    logical_name: ""
-  - name: "state_machine_1.vhd"
-    file_type: "vhdlSource-2008"
-    is_include_file: false
-    include_path: ""
-    logical_name: ""
-  - name: "state_machine_0.v"
+  ##########################################################
+  # Verilog
+  ##########################################################
+  - name: "fsm_0.v"
     file_type: "verilogSource-2005"
     is_include_file: false
     include_path: ""
     logical_name: ""
+
+  - name: "fsm_1.v"
+    file_type: "verilogSource-2005"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+
+  ##########################################################
+  # VHDL
+  ##########################################################
+  - name: "fsm_0.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+
+  - name: "fsm_1.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+
+  - name: "fsm_2.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+
+  - name: "fsm_3.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+
+  - name: "fsm_4.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+
+  - name: "fsm_5.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+
+  - name: "fsm_6.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+
 tool_options: 
   ghdl: 
     installation_path: ""

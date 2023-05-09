@@ -33,7 +33,6 @@ begin
         end if; 
     end process;
 
-    -- Mealy Design
     process(stateMealy_reg, level)
     begin 
         -- store current state as next
@@ -53,7 +52,6 @@ begin
         end case; 
     end process;
     
-    --! fsm_extract
     process(stateMoore_reg, level)
     begin 
         -- store current state as next
