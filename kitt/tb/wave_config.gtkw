@@ -1,38 +1,39 @@
 [*]
 [*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
-[*] Fri May 12 20:24:44 2023
+[*] Sat May 13 06:26:25 2023
 [*]
-[dumpfile] "/home/ismael/git/smgl9/code_samples/cocotb/tb/wave.ghw"
-[dumpfile_mtime] "Fri May 12 20:23:00 2023"
-[dumpfile_size] 824859
-[savefile] "/home/ismael/git/smgl9/code_samples/cocotb/tb/wave_config.gtkw"
-[timestart] 519950000
+[dumpfile] "/home/ismael/git/teros/teroshdl-examples/kitt/tb/wave.ghw"
+[dumpfile_mtime] "Sat May 13 06:24:52 2023"
+[dumpfile_size] 11022
+[savefile] "/home/ismael/git/teros/teroshdl-examples/kitt/tb/wave_config.gtkw"
+[timestart] 0
 [size] 1000 600
 [pos] -1 -1
-*-23.608618 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-27.852959 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] top.
-[treeopen] top.kit_leds.
+[treeopen] top.kitt_leds.
 [sst_width] 196
-[signals_width] 134
+[signals_width] 262
 [sst_expanded] 1
 [sst_vpaned_height] 155
-@800022
-#{top.kit_leds.leds_reg[7:0]} top.kit_leds.leds_reg[7] top.kit_leds.leds_reg[6] top.kit_leds.leds_reg[5] top.kit_leds.leds_reg[4] top.kit_leds.leds_reg[3] top.kit_leds.leds_reg[2] top.kit_leds.leds_reg[1] top.kit_leds.leds_reg[0]
-@28
-top.kit_leds.leds_reg[7]
-top.kit_leds.leds_reg[6]
-top.kit_leds.leds_reg[5]
-top.kit_leds.leds_reg[4]
-top.kit_leds.leds_reg[3]
-top.kit_leds.leds_reg[2]
-top.kit_leds.leds_reg[1]
-top.kit_leds.leds_reg[0]
-@1001200
+@800023
+#{top.kitt_leds.leds_reg[7:0]} top.kitt_leds.leds_reg[7] top.kitt_leds.leds_reg[6] top.kitt_leds.leds_reg[5] top.kitt_leds.leds_reg[4] top.kitt_leds.leds_reg[3] top.kitt_leds.leds_reg[2] top.kitt_leds.leds_reg[1] top.kitt_leds.leds_reg[0]
+@29
+top.kitt_leds.leds_reg[7]
+top.kitt_leds.leds_reg[6]
+top.kitt_leds.leds_reg[5]
+top.kitt_leds.leds_reg[4]
+top.kitt_leds.leds_reg[3]
+top.kitt_leds.leds_reg[2]
+top.kitt_leds.leds_reg[1]
+top.kitt_leds.leds_reg[0]
+@1001201
 -group_end
-@421
-top.kit_leds.leds_state
 @28
-top.kit_leds.reset_in
-top.kit_leds.clk_in
+top.kitt_leds.reset_in
+@420
+top.kitt_leds.leds_state
+@28
+top.kitt_leds.clk_in
 [pattern_trace] 1
 [pattern_trace] 0

@@ -1,0 +1,20 @@
+toplevel: kitt_leds
+name: kitt
+files: 
+  - name: "src/kitt_leds.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+tool_options: 
+  vivado: 
+    installation_path: "/tools/Xilinx/Vivado/2019.2/bin/"
+    part: "xc7a35tcsg324-1"
+    synth: ""
+    pnr: none
+    jtag_freq: ""
+    hw_target: ""
+    linter_options_xvlog: 
+      - ""
+    linter_options_xvhdl: 
+      - ""
