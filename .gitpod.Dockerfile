@@ -53,4 +53,7 @@ RUN pip3 install cocotb
 ## Utils
 RUN pip3 install numpy
 
+#Teros pip dependencies
+RUN pip3 install teroshdl
+
 
