@@ -4,6 +4,12 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
+--! {signal: [
+--!   {name: 'clk_in', wave: 'p.....|...'},
+--!   {name: 'reset_in', wave: '0......1.0'},
+--!   {name: 'leds', wave: 'x.345x|0.x', data: ['one', 'two', 'tail', 'reset']},
+--! ]}
+
 entity kitt_leds is
   generic (
     g_leds : integer := 8
