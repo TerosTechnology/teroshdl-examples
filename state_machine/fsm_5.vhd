@@ -2,7 +2,8 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
-entity control_logic is
+
+entity fsm_5 is
   port
   (
     i_clk            : in std_logic;
@@ -20,9 +21,10 @@ entity control_logic is
     -- to delivery refund
     o_money_refund_value     : out std_logic_vector(3 downto 0); -- refund value, up to 15 dollars = (2^4)-1
     o_money_refund_value_ena : out std_logic); -- 1 clock pulse
-end control_logic;
+    
+end fsm_5;
 
-architecture rtl of control_logic is
+architecture rtl of fsm_5 is
 
   constant C_PRICE_PRODUCT_1 : integer := 1;
   constant C_PRICE_PRODUCT_2 : integer := 3;
