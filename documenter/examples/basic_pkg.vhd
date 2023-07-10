@@ -1,3 +1,7 @@
+library ieee;
+use ieee.numeric_std.all;
+use ieee.std_logic_1164.all;
+
 --! This is a **multiline**
 --! package description using **MarkDown**
 package documenter_basic_package_example is
@@ -21,4 +25,4 @@ package documenter_basic_package_example is
 
   signal my_signal : std_logic_vector(3 downto 0); --! **inline** description
    
-  end package body documenter_basic_package_example;
+  end package documenter_basic_package_example;

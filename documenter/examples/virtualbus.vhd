@@ -22,7 +22,17 @@
 --! @details Another description can be added here
 --! And more core description can be added here
 
+library ieee;
+use ieee.numeric_std.all;
+use ieee.std_logic_1164.all;
+
 entity virtualbus_example is
+  generic (
+    AXI_LITE_ADDR_WIDTH : integer := 32;
+    AXI_LITE_DATA_WIDTH : integer := 32;
+    LUT_WORD_SIZE       : integer := 8;
+    LUT_ADDR_SIZE       : integer := 8
+  );
   port (
     --! core clock, 100 Mhz
     clk : in std_logic;

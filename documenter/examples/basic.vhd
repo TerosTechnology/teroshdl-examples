@@ -1,4 +1,5 @@
 library ieee;
+use ieee.numeric_std.all;
 use ieee.std_logic_1164.all;
 
 --! This is a **multiline**
@@ -21,7 +22,7 @@ entity documenter_basic_example is
     input_0 : in std_logic;
     input_1 : in std_logic; --! inline description
     --! this is `a cool description`
-    output_0 : out std_logic_version(10 downto 0)
+    output_0 : out std_logic_vector(10 downto 0)
   );
 end documenter_basic_example;
 
