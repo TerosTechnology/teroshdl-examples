@@ -4,9 +4,11 @@ files:
   - name: "half_adder_tb.vhd"
     file_type: "vhdlSource-2008"
     is_include_file: false
+    logical_name: ""
   - name: "half_adder.vhd"
     file_type: "vhdlSource-2008"
     is_include_file: false
+    logical_name: "mylib"
 tool_options: 
   ghdl: 
     installation_path: ""
