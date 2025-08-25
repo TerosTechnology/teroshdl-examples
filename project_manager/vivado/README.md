@@ -1,2 +1,2 @@
 - Tool: Vivado
-- Board: ZCU102
+- Board: xczu7ev-ffvc1156-2-e (ZCU106)

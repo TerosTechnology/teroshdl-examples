@@ -1,7 +1,7 @@
-toplevel: blinky_zcu102
+toplevel: blinky_zcu106
 name: project_vivado
 files: 
-  - name: "blinky_zcu102.v"
+  - name: "blinky_zcu106.v"
     file_type: "verilogSource-2005"
     is_include_file: false
     include_path: ""

@@ -20,7 +20,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-module blinky_zcu102
+// xczu7ev-ffvc1156-2-e
+
+module blinky_zcu106
   (input wire  clk_p,
    input wire  clk_n,
    output wire q);
